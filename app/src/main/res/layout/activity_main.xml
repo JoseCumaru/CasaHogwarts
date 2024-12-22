@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/auditoriohogwarts"
+        android:contentDescription="Background image of Hogwarts Great Hall" />
+
+    <!-- Transparent section for SeekBars -->
+    <LinearLayout
+        android:id="@+id/seekbarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="117dp"
+        android:background="@drawable/card_background"
+        android:backgroundTint="#CECECE"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- First Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="2">
+
+            <!-- Corajoso -->
+            <TextView
+                android:id="@+id/textCorajoso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Corajoso"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/marrom" />
+
+            <SeekBar
+                android:id="@+id/seekBarCorajoso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/marrom"
+                android:layout_weight="1"
+                android:max="10" />
+        </LinearLayout>
+
+        <!-- Ousado -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textOusado"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Ousado"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/marrom" />
+
+            <SeekBar
+                android:id="@+id/seekBarOusado"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:progressTint="@color/marrom"
+                android:max="10" />
+        </LinearLayout>
+
+        <!-- Ambicioso -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textAmbicioso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Ambicioso"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/marrom" />
+
+            <SeekBar
+                android:id="@+id/seekBarAmbicioso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/marrom"
+                android:layout_weight="1"
+                android:max="10" />
+        </LinearLayout>
+
+        <!-- Astuto -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textAstuto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Astuto"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/marrom" />
+
+            <SeekBar
+                android:id="@+id/seekBarAstuto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/marrom"
+                android:layout_weight="1"
+                android:max="10" />
+        </LinearLayout>
+
+        <!-- Inteligente -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textInteligente"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Inteligente"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/marrom" />
+
+            <SeekBar
+                android:id="@+id/seekBarInteligente"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/marrom"
+                android:layout_weight="1"
+                android:max="10" />
+        </LinearLayout>
+
+        <!-- Criativo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textCriativo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Criativo"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/marrom" />
+
+            <SeekBar
+                android:id="@+id/seekBarCriativo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/marrom"
+                android:layout_weight="1"
+                android:max="10" />
+        </LinearLayout>
+
+        <!-- Leal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textLeal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Leal"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/marrom" />
+
+            <SeekBar
+                android:id="@+id/seekBarLeal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/marrom"
+                android:layout_weight="1"
+                android:max="10" />
+        </LinearLayout>
+
+        <!-- Paciente -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textPaciente"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Paciente"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/marrom" />
+
+            <SeekBar
+                android:id="@+id/seekBarPaciente"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/marrom"
+                android:layout_weight="1"
+                android:max="10" />
+        </LinearLayout>
+
+        <!-- Button to Predict House -->
+        <Button
+            android:id="@+id/buttonPreverCasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/marrom"
+            android:text="Prever Casa"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Sorting Hat image -->
+
+    <!-- Speech bubble for predicted house -->
+
+    <ImageView
+        android:id="@+id/sortingHat"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_above="@+id/seekbarContainer"
+        android:layout_marginBottom="-20dp"
+        android:translationZ="100dp"
+        android:contentDescription="Sorting Hat"
+        android:src="@drawable/chapeu_seletor" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:layout_above="@+id/seekbarContainer"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/speech_bubble"
+        android:translationZ="0dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textPredictedHouse"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/seekbarContainer"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="64dp"
+        android:elevation="5dp"
+        android:padding="8dp"
+        android:text="Quais são as suas principais características?"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:translationZ="10dp" />
+</RelativeLayout>
