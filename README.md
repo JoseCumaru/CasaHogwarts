@@ -20,7 +20,7 @@ Este aplicativo Android prevê a casa de Hogwarts de um usuário com base em car
 4. O aplicativo interpreta a saída para determinar a casa com maior probabilidade.  
 
 ## Telas
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="tela1.png" alt="Tela Principal" style="max-width: 30%; height: auto; margin: 0 auto;" />
-  <img src="tela2.png" alt="Tela Principal 2" style="max-width: 30%; height: auto; margin: 0 auto;" />
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+  <img src="tela1.png" alt="Tela Principal" style="max-width: 20%; height: auto; margin: 0 auto;" />
+  <img src="tela2.png" alt="Tela Principal 2" style="max-width: 20%; height: auto; margin: 0 auto;" />
 </div>
